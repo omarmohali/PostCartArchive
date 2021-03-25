@@ -9,6 +9,14 @@
 /* Begin PBXBuildFile section */
 		1358F049260B42D100FF007F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1358F047260B42D100FF007F /* LoginViewController.swift */; };
 		1358F04A260B42D100FF007F /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1358F048260B42D100FF007F /* LoginViewController.xib */; };
+		1358F05B260BDED700FF007F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1358F059260BDED700FF007F /* MainViewController.swift */; };
+		1358F05C260BDED700FF007F /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1358F05A260BDED700FF007F /* MainViewController.xib */; };
+		1358F067260BDEE500FF007F /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1358F066260BDEE500FF007F /* MainViewModel.swift */; };
+		1387AD52260BE24B00B5A0C2 /* PostCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1387AD51260BE24B00B5A0C2 /* PostCard.swift */; };
+		1387AD59260BE6A300B5A0C2 /* ArchivedPostCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1387AD58260BE6A300B5A0C2 /* ArchivedPostCards.swift */; };
+		1387AD61260BE8E400B5A0C2 /* ChoosePostCardTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1387AD5F260BE8E400B5A0C2 /* ChoosePostCardTypeViewController.swift */; };
+		1387AD62260BE8E400B5A0C2 /* ChoosePostCardTypeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1387AD60260BE8E400B5A0C2 /* ChoosePostCardTypeViewController.xib */; };
+		1387AD6C260BE90800B5A0C2 /* ChoosePostCardTypeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1387AD6B260BE90800B5A0C2 /* ChoosePostCardTypeViewModel.swift */; };
 		138F73DA260B275F00E52705 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138F73D9260B275F00E52705 /* AppDelegate.swift */; };
 		138F73DC260B275F00E52705 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138F73DB260B275F00E52705 /* SceneDelegate.swift */; };
 		138F73E1260B275F00E52705 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 138F73DF260B275F00E52705 /* Main.storyboard */; };
@@ -24,6 +32,17 @@
 		138F7441260B3D9000E52705 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138F7440260B3D9000E52705 /* LoginViewModel.swift */; };
 		138F7447260B40D100E52705 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138F7446260B40D100E52705 /* ViewController.swift */; };
 		138F744F260B40FB00E52705 /* ControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138F744E260B40FB00E52705 /* ControllerViewModel.swift */; };
+		1393A0F1260BF8D000BC2FB2 /* AddPostCardTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1393A0EF260BF8D000BC2FB2 /* AddPostCardTextViewController.swift */; };
+		1393A0F2260BF8D000BC2FB2 /* AddPostCardTextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1393A0F0260BF8D000BC2FB2 /* AddPostCardTextViewController.xib */; };
+		1393A0F7260BF8E000BC2FB2 /* AddPostCardTextViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1393A0F6260BF8E000BC2FB2 /* AddPostCardTextViewModel.swift */; };
+		1393A10A260C048700BC2FB2 /* PreviewPostCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1393A109260C048700BC2FB2 /* PreviewPostCardViewModel.swift */; };
+		1393A118260C05CF00BC2FB2 /* PreviewPostCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1393A116260C05CF00BC2FB2 /* PreviewPostCardViewController.swift */; };
+		1393A119260C05CF00BC2FB2 /* PreviewPostCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1393A117260C05CF00BC2FB2 /* PreviewPostCardViewController.xib */; };
+		1393A123260CB15400BC2FB2 /* ArchivedPostCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1393A121260CB15400BC2FB2 /* ArchivedPostCardCell.swift */; };
+		1393A124260CB15400BC2FB2 /* ArchivedPostCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1393A122260CB15400BC2FB2 /* ArchivedPostCardCell.xib */; };
+		1393A129260CB16300BC2FB2 /* ArchivedPostCardsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1393A128260CB16300BC2FB2 /* ArchivedPostCardsViewModel.swift */; };
+		1393A12F260CB17D00BC2FB2 /* ArchivedPostCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1393A12D260CB17D00BC2FB2 /* ArchivedPostCardsViewController.swift */; };
+		1393A130260CB17D00BC2FB2 /* ArchivedPostCardsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1393A12E260CB17D00BC2FB2 /* ArchivedPostCardsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +65,14 @@
 /* Begin PBXFileReference section */
 		1358F047260B42D100FF007F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		1358F048260B42D100FF007F /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		1358F059260BDED700FF007F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1358F05A260BDED700FF007F /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		1358F066260BDEE500FF007F /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainViewModel.swift; path = PostCardArchive/Presentation/Main/ViewController/MainViewModel.swift; sourceTree = SOURCE_ROOT; };
+		1387AD51260BE24B00B5A0C2 /* PostCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCard.swift; sourceTree = "<group>"; };
+		1387AD58260BE6A300B5A0C2 /* ArchivedPostCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchivedPostCards.swift; sourceTree = "<group>"; };
+		1387AD5F260BE8E400B5A0C2 /* ChoosePostCardTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoosePostCardTypeViewController.swift; sourceTree = "<group>"; };
+		1387AD60260BE8E400B5A0C2 /* ChoosePostCardTypeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChoosePostCardTypeViewController.xib; sourceTree = "<group>"; };
+		1387AD6B260BE90800B5A0C2 /* ChoosePostCardTypeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoosePostCardTypeViewModel.swift; sourceTree = "<group>"; };
 		138F73D6260B275F00E52705 /* PostCardArchive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PostCardArchive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		138F73D9260B275F00E52705 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		138F73DB260B275F00E52705 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +94,17 @@
 		138F7440260B3D9000E52705 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		138F7446260B40D100E52705 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		138F744E260B40FB00E52705 /* ControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerViewModel.swift; sourceTree = "<group>"; };
+		1393A0EF260BF8D000BC2FB2 /* AddPostCardTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostCardTextViewController.swift; sourceTree = "<group>"; };
+		1393A0F0260BF8D000BC2FB2 /* AddPostCardTextViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddPostCardTextViewController.xib; sourceTree = "<group>"; };
+		1393A0F6260BF8E000BC2FB2 /* AddPostCardTextViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostCardTextViewModel.swift; sourceTree = "<group>"; };
+		1393A109260C048700BC2FB2 /* PreviewPostCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewPostCardViewModel.swift; sourceTree = "<group>"; };
+		1393A116260C05CF00BC2FB2 /* PreviewPostCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewPostCardViewController.swift; sourceTree = "<group>"; };
+		1393A117260C05CF00BC2FB2 /* PreviewPostCardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PreviewPostCardViewController.xib; sourceTree = "<group>"; };
+		1393A121260CB15400BC2FB2 /* ArchivedPostCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchivedPostCardCell.swift; sourceTree = "<group>"; };
+		1393A122260CB15400BC2FB2 /* ArchivedPostCardCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArchivedPostCardCell.xib; sourceTree = "<group>"; };
+		1393A128260CB16300BC2FB2 /* ArchivedPostCardsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchivedPostCardsViewModel.swift; sourceTree = "<group>"; };
+		1393A12D260CB17D00BC2FB2 /* ArchivedPostCardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchivedPostCardsViewController.swift; sourceTree = "<group>"; };
+		1393A12E260CB17D00BC2FB2 /* ArchivedPostCardsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArchivedPostCardsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +149,93 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		1358F056260BDEA400FF007F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1358F057260BDEAC00FF007F /* ViewController */,
+				1358F058260BDEBA00FF007F /* ViewModel */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		1358F057260BDEAC00FF007F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1358F059260BDED700FF007F /* MainViewController.swift */,
+				1358F05A260BDED700FF007F /* MainViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1358F058260BDEBA00FF007F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1358F066260BDEE500FF007F /* MainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1387AD50260BE23B00B5A0C2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1387AD51260BE24B00B5A0C2 /* PostCard.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1387AD56260BE66900B5A0C2 /* DataAccess */ = {
+			isa = PBXGroup;
+			children = (
+				138F740D260B284D00E52705 /* Network */,
+				1387AD57260BE67200B5A0C2 /* LocalStorage */,
+			);
+			path = DataAccess;
+			sourceTree = "<group>";
+		};
+		1387AD57260BE67200B5A0C2 /* LocalStorage */ = {
+			isa = PBXGroup;
+			children = (
+				1387AD58260BE6A300B5A0C2 /* ArchivedPostCards.swift */,
+			);
+			path = LocalStorage;
+			sourceTree = "<group>";
+		};
+		1387AD5D260BE88200B5A0C2 /* CreateCardJourney */ = {
+			isa = PBXGroup;
+			children = (
+				1387AD5E260BE8C000B5A0C2 /* ChoosePostCardType */,
+				1393A0EC260BF86000BC2FB2 /* AddPostCardText */,
+				1393A0FE260C042000BC2FB2 /* PreviewPostCard */,
+			);
+			path = CreateCardJourney;
+			sourceTree = "<group>";
+		};
+		1387AD5E260BE8C000B5A0C2 /* ChoosePostCardType */ = {
+			isa = PBXGroup;
+			children = (
+				1387AD69260BE8E900B5A0C2 /* ViewController */,
+				1387AD6A260BE8F700B5A0C2 /* ViewModel */,
+			);
+			path = ChoosePostCardType;
+			sourceTree = "<group>";
+		};
+		1387AD69260BE8E900B5A0C2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1387AD5F260BE8E400B5A0C2 /* ChoosePostCardTypeViewController.swift */,
+				1387AD60260BE8E400B5A0C2 /* ChoosePostCardTypeViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1387AD6A260BE8F700B5A0C2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1387AD6B260BE90800B5A0C2 /* ChoosePostCardTypeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		138F73CD260B275E00E52705 = {
 			isa = PBXGroup;
 			children = (
@@ -134,7 +259,8 @@
 		138F73D8260B275F00E52705 /* PostCardArchive */ = {
 			isa = PBXGroup;
 			children = (
-				138F740D260B284D00E52705 /* Network */,
+				1387AD56260BE66900B5A0C2 /* DataAccess */,
+				1387AD50260BE23B00B5A0C2 /* Models */,
 				138F740C260B283200E52705 /* Presentation */,
 				138F73D9260B275F00E52705 /* AppDelegate.swift */,
 				138F73DB260B275F00E52705 /* SceneDelegate.swift */,
@@ -169,6 +295,9 @@
 			children = (
 				138F7445260B40AB00E52705 /* Base */,
 				138F743F260B3D8000E52705 /* Login */,
+				1358F056260BDEA400FF007F /* Main */,
+				1387AD5D260BE88200B5A0C2 /* CreateCardJourney */,
+				1393A11D260CB05200BC2FB2 /* Archives */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -233,6 +362,94 @@
 				138F744E260B40FB00E52705 /* ControllerViewModel.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		1393A0EC260BF86000BC2FB2 /* AddPostCardText */ = {
+			isa = PBXGroup;
+			children = (
+				1393A0ED260BF8A900BC2FB2 /* ViewController */,
+				1393A0EE260BF8BB00BC2FB2 /* ViewModel */,
+			);
+			path = AddPostCardText;
+			sourceTree = "<group>";
+		};
+		1393A0ED260BF8A900BC2FB2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1393A0EF260BF8D000BC2FB2 /* AddPostCardTextViewController.swift */,
+				1393A0F0260BF8D000BC2FB2 /* AddPostCardTextViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1393A0EE260BF8BB00BC2FB2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1393A0F6260BF8E000BC2FB2 /* AddPostCardTextViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1393A0FE260C042000BC2FB2 /* PreviewPostCard */ = {
+			isa = PBXGroup;
+			children = (
+				1393A107260C045500BC2FB2 /* ViewController */,
+				1393A108260C045D00BC2FB2 /* ViewModel */,
+			);
+			path = PreviewPostCard;
+			sourceTree = "<group>";
+		};
+		1393A107260C045500BC2FB2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1393A116260C05CF00BC2FB2 /* PreviewPostCardViewController.swift */,
+				1393A117260C05CF00BC2FB2 /* PreviewPostCardViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1393A108260C045D00BC2FB2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1393A109260C048700BC2FB2 /* PreviewPostCardViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1393A11D260CB05200BC2FB2 /* Archives */ = {
+			isa = PBXGroup;
+			children = (
+				1393A11E260CB06600BC2FB2 /* ViewController */,
+				1393A11F260CB07400BC2FB2 /* ViewModel */,
+				1393A120260CB12C00BC2FB2 /* Cell */,
+			);
+			path = Archives;
+			sourceTree = "<group>";
+		};
+		1393A11E260CB06600BC2FB2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1393A12D260CB17D00BC2FB2 /* ArchivedPostCardsViewController.swift */,
+				1393A12E260CB17D00BC2FB2 /* ArchivedPostCardsViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1393A11F260CB07400BC2FB2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1393A128260CB16300BC2FB2 /* ArchivedPostCardsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1393A120260CB12C00BC2FB2 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1393A121260CB15400BC2FB2 /* ArchivedPostCardCell.swift */,
+				1393A122260CB15400BC2FB2 /* ArchivedPostCardCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -339,9 +556,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				1358F04A260B42D100FF007F /* LoginViewController.xib in Resources */,
+				1393A119260C05CF00BC2FB2 /* PreviewPostCardViewController.xib in Resources */,
 				138F73E6260B276100E52705 /* LaunchScreen.storyboard in Resources */,
+				1393A0F2260BF8D000BC2FB2 /* AddPostCardTextViewController.xib in Resources */,
+				1393A130260CB17D00BC2FB2 /* ArchivedPostCardsViewController.xib in Resources */,
+				1358F05C260BDED700FF007F /* MainViewController.xib in Resources */,
+				1393A124260CB15400BC2FB2 /* ArchivedPostCardCell.xib in Resources */,
 				138F73E3260B276100E52705 /* Assets.xcassets in Resources */,
 				138F73E1260B275F00E52705 /* Main.storyboard in Resources */,
+				1387AD62260BE8E400B5A0C2 /* ChoosePostCardTypeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,17 +589,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1393A12F260CB17D00BC2FB2 /* ArchivedPostCardsViewController.swift in Sources */,
 				138F7433260B2A5C00E52705 /* NetworkError.swift in Sources */,
 				138F73DA260B275F00E52705 /* AppDelegate.swift in Sources */,
 				138F7447260B40D100E52705 /* ViewController.swift in Sources */,
+				1393A129260CB16300BC2FB2 /* ArchivedPostCardsViewModel.swift in Sources */,
+				1393A0F1260BF8D000BC2FB2 /* AddPostCardTextViewController.swift in Sources */,
+				1387AD61260BE8E400B5A0C2 /* ChoosePostCardTypeViewController.swift in Sources */,
+				1393A118260C05CF00BC2FB2 /* PreviewPostCardViewController.swift in Sources */,
+				1358F05B260BDED700FF007F /* MainViewController.swift in Sources */,
 				138F742D260B29CA00E52705 /* LoginRequestBody.swift in Sources */,
 				138F73DC260B275F00E52705 /* SceneDelegate.swift in Sources */,
+				1387AD59260BE6A300B5A0C2 /* ArchivedPostCards.swift in Sources */,
+				1358F067260BDEE500FF007F /* MainViewModel.swift in Sources */,
+				1393A123260CB15400BC2FB2 /* ArchivedPostCardCell.swift in Sources */,
 				138F7427260B29A700E52705 /* LoginRequest.swift in Sources */,
+				1393A0F7260BF8E000BC2FB2 /* AddPostCardTextViewModel.swift in Sources */,
 				138F744F260B40FB00E52705 /* ControllerViewModel.swift in Sources */,
 				138F7418260B298300E52705 /* HttpRequest.swift in Sources */,
 				138F7441260B3D9000E52705 /* LoginViewModel.swift in Sources */,
+				1393A10A260C048700BC2FB2 /* PreviewPostCardViewModel.swift in Sources */,
 				138F7410260B288800E52705 /* ServiceUrls.swift in Sources */,
 				1358F049260B42D100FF007F /* LoginViewController.swift in Sources */,
+				1387AD6C260BE90800B5A0C2 /* ChoosePostCardTypeViewModel.swift in Sources */,
+				1387AD52260BE24B00B5A0C2 /* PostCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
