@@ -17,3 +17,10 @@ struct LoginRequestBody: Codable, Equatable {
         case password
     }
 }
+
+struct LoginRequestResponse: Codable {
+    let success: Bool
+    enum CodingKeys: String, CodingKey {
+        case success
+    }
+}

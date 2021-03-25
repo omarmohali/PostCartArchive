@@ -25,7 +25,6 @@
 		138F73F1260B276100E52705 /* PostCardArchiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138F73F0260B276100E52705 /* PostCardArchiveTests.swift */; };
 		138F73FC260B276100E52705 /* PostCardArchiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138F73FB260B276100E52705 /* PostCardArchiveUITests.swift */; };
 		138F7410260B288800E52705 /* ServiceUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138F740F260B288800E52705 /* ServiceUrls.swift */; };
-		138F7418260B298300E52705 /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138F7417260B298300E52705 /* HttpRequest.swift */; };
 		138F7427260B29A700E52705 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138F7426260B29A700E52705 /* LoginRequest.swift */; };
 		138F742D260B29CA00E52705 /* LoginRequestBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138F742C260B29CA00E52705 /* LoginRequestBody.swift */; };
 		138F7433260B2A5C00E52705 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138F7432260B2A5C00E52705 /* NetworkError.swift */; };
@@ -87,7 +86,6 @@
 		138F73FB260B276100E52705 /* PostCardArchiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCardArchiveUITests.swift; sourceTree = "<group>"; };
 		138F73FD260B276100E52705 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		138F740F260B288800E52705 /* ServiceUrls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceUrls.swift; sourceTree = "<group>"; };
-		138F7417260B298300E52705 /* HttpRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpRequest.swift; sourceTree = "<group>"; };
 		138F7426260B29A700E52705 /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
 		138F742C260B29CA00E52705 /* LoginRequestBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequestBody.swift; sourceTree = "<group>"; };
 		138F7432260B2A5C00E52705 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
@@ -323,7 +321,6 @@
 		138F741C260B298600E52705 /* Requests */ = {
 			isa = PBXGroup;
 			children = (
-				138F7417260B298300E52705 /* HttpRequest.swift */,
 				138F742B260B29AB00E52705 /* Login */,
 			);
 			path = Requests;
@@ -606,7 +603,6 @@
 				138F7427260B29A700E52705 /* LoginRequest.swift in Sources */,
 				1393A0F7260BF8E000BC2FB2 /* AddPostCardTextViewModel.swift in Sources */,
 				138F744F260B40FB00E52705 /* ControllerViewModel.swift in Sources */,
-				138F7418260B298300E52705 /* HttpRequest.swift in Sources */,
 				138F7441260B3D9000E52705 /* LoginViewModel.swift in Sources */,
 				1393A10A260C048700BC2FB2 /* PreviewPostCardViewModel.swift in Sources */,
 				138F7410260B288800E52705 /* ServiceUrls.swift in Sources */,

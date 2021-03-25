@@ -20,11 +20,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         let window = UIWindow(windowScene: windowScene)
         
-//        let viewModel = LoginViewModel()
-//        let viewController = LoginViewController(viewModel: viewModel)
-        
-        let viewModel = MainViewModel()
-        let viewController = MainViewController(viewModel: viewModel)
+        let viewModel = LoginViewModel()
+        let viewController = LoginViewController(viewModel: viewModel)
         
         let navigationController = UINavigationController(rootViewController: viewController)
         window.rootViewController = navigationController

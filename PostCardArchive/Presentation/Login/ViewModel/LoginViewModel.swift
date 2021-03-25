@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 class LoginViewModel: ControllerViewModel {
     
@@ -35,11 +36,22 @@ class LoginViewModel: ControllerViewModel {
         loginRequest.login(body: loginBody, complete: {
             [weak self] error in
             if error == nil {
-                print("Logged in")
+                self?.navigateToMain()
             } else {
                 self?.showUnableToLoginAlert()
             }
         })
+    }
+    
+    private func navigateToMain() {
+        DispatchQueue.main.async {
+            let mainViewModel = MainViewModel()
+            let mainViewController = MainViewController(viewModel: mainViewModel)
+            let navigationController = UINavigationController(rootViewController: mainViewController)
+            UIApplication.shared.windows.first?.rootViewController = navigationController
+            UIApplication.shared.windows.first?.makeKeyAndVisible()
+        }
+        
     }
     
     private func showUnableToLoginAlert() {
